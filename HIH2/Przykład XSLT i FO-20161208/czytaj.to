@@ -1,0 +1,3 @@
+Aby zobaczyc efekt przekszta³cenia pliku Pajeczaki.xml wg pliku transformacji Pajeczaki.xsl nale¿y wyœwietliæ plik Pajeczaki.xml w przegl¹darce (IE).
+Aby przekstza³ciæ plik Pa.xml do pdf z wykorzystaniem Pa.xsl nale¿y pos³u¿yæ siê procesorem fop (dostêpny w linku do materia³ów laboratoryjnych).Wywo³anie:
+fop -xsl Pa.xsl -xml Pa.xml -pdf Pa.pdf

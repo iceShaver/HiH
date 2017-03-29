@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<?xml-stylesheet type="text/xsl" href="Pajeczaki.xsl"?>
+<pajeczaki xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <pajaki gatunek="tygrzyk"  chroniony="tak" wyst_polska="tak">
+		    <nazwa jezyk="polska">Tygrzyk Paskowany</nazwa>
+		    <nazwa jezyk="łacińska">Argiope bruennichi</nazwa>
+		    <gromada>Pajeczaki</gromada>
+		    <wystepowanie>
+			    <swiat>
+				    <kontynent>Europa</kontynent>
+				    <kontynent>Azja</kontynent>
+			  </swiat>
+			    <tereny>
+				    <teren>wysoka trawa</teren>
+				    <teren>suche łąki</teren>
+				    <teren>wilgotne łąki</teren>
+				    <teren>nieużytki</teren>
+				    <teren>skraje młodników</teren>
+				    <teren>brzegi zbiorników wodnych</teren>
+				    <teren>ogrody</teren>
+			    </tereny>
+			    <srodowisko typ="lądowe" />
+		    </wystepowanie>
+		    <opis czego="Cechy">Samica: jej głowotułów pokryty jest gęstym srebrzystym włosem, a na jaskrawożółtym odwłoku posiada czarne poprzeczne prążki. Ten paskowany wzór upodabnia ją nieco do osy. Samiec: jest bardzo niepozorny, jego srebrzystoszary odwłok urozmaica jedynie szara podłużna łata na środku i ciemniejsze kropki po bokach.
+		    </opis>
+		    <opis czego="Pokarm">Pająk ten jest bardzo "wybredny", gdyż poluje tylko na owady z rzędu prostoskrzydłych i ważek, które charakteryzują się stosunkowo dużymi rozmiarami.
+		    </opis>
+		    <opis czego="Wymiary">Samica osiąga długość ok. 25 mm. Samiec jest bardzo niepozorny, nie przekracza 5,5 mm długości. 
+		    </opis>
+		    <zdjecie zrodlo="Gfx\tygrzyk10_mlody2.jpg"/>
+		    <zdjecie zrodlo="Gfx\tygrzyk12_ml_samica.jpg"/>
+		    <zdjecie zrodlo="Gfx\tygrzyk12_ml_samiec.jpg"/>
+		    <zdjecie zrodlo="Gfx\tygrzyk14_obiad.jpg"/>
+		    <linki adres="http://pl.wikipedia.org/wiki/Tygrzyk_paskowany">wikipedia.org</linki>
+		    <linki adres="http://www.salamandra.org.pl/magazyn/b08a07.html">salamandra.org.pl</linki>
+		    <linki adres="http://www.eko.org.pl/otop-leszno/tygrzyk.php">eko.org.pl</linki>
+		    <linki adres="http://www.bocian.org.pl/biuletyn/2001/b2a23.php">bocian.org.pl</linki>
+		    <linki adres="http://grzesiak.kei.pl/jurek/lista161.html">grzesiak.kei.pl</linki>
+		    <data>2012-12-01</data>
+  </pajaki>
+	   
+  <pajaki gatunek="krzyzak" chroniony="nie" wyst_polska="tak">
+	  <nazwa jezyk="polska">Krzyżak Ogrodowy</nazwa>
+	  <nazwa jezyk="łacińska">Araneus diadematus</nazwa>
+	  <gromada>Pajeczaki</gromada>
+	  <wystepowanie>
+		  <swiat>
+			  <kontynent>Europa</kontynent>
+			  <kontynent>Azja</kontynent>
+		  </swiat>
+      <tereny>
+			  <teren>krzewy</teren>
+			  <teren>drzewa</teren>
+			  <teren>ogrody</teren>
+			  <teren>zarośla</teren>
+			  <teren>młodniki sosnowe</teren>
+		  </tereny>
+		  <srodowisko typ="lądowe" />
+	  </wystepowanie>
+	  <opis czego="Cechy">Na odwłoku jasne plamy układają się w charakterystyczny kształt krzyża, po którym łatwo tego pająka rozpoznać. Kolor pająka to mniej lub bardziej jasny odcień brązu. Cechą charakterystyczną jest obecność 4 par nóg krocznych na tułowiu. Aparat gębowy tworzą szczękoczułki i nagogłaszczki. Odwłok zawsze pozbawiony nóg, przeważnie jest pękaty. Samce są zwykle niewielkie, natomiast samice są znacznie większe dzięki odwłokowi wypełnonienemu jajami. 
+	  </opis>
+	  <opis czego="Pokarm">Pająk poluje na wszelkie owady, muchy, motyle, ćmy itp. Krzyżak Ogrodowy najczęsciej siedzi na środku pajęczyny czekając na zdobycz. Gdy ta wleci w pajęczyne, pająk w mgnieniu oka, podbiega do ofiary, unieruchamia ją, wstrzykując jad i oplatając pajęczyną.
+	  </opis>
+	  <opis czego="Wymiary">Krzyżak ogrodowy osiąga długość do 1,7 cm.
+	  </opis>
+	  <zdjecie zrodlo="Gfx/krzyzak.jpg"></zdjecie>
+	  <zdjecie zrodlo="Gfx/krzyzak19.jpg"></zdjecie>
+	  <zdjecie zrodlo="Gfx/krzyzak2.jpg"></zdjecie>
+	  <linki adres="http://www.nuzban.scholaris.pl/zwierz/k/krzyzogr.htm">nuzban.scholaris.pl</linki>
+  </pajaki>
+   
+  <skorpiony gatunek="polny" chroniony="tak" wyst_polska="nie">
+			<nazwa jezyk="polska">Skorpion Polny</nazwa>
+			<nazwa jezyk="łacińska">Buthus Occitanus</nazwa>
+			<gromada>Pajeczaki</gromada>
+			<wystepowanie>
+				<swiat>
+					<kontynent>Europa (południe)</kontynent>
+					<kontynent>Afryka (północ)</kontynent>
+				</swiat>
+        <tereny>
+					<teren>stepy</teren>
+					<teren>obszary pustynne</teren>
+					<teren>obszary górzyste</teren>
+				</tereny>
+				<srodowisko typ="lądowe"></srodowisko>
+			</wystepowanie>
+			<opis czego="Cechy">Posiadając małe kleszcze i gruby ogon, ten bardzo jadowity gatunek jest typowym przedstawicielem rodziny skorpionów Buthidae. W Europie powszechna jest mniej jadowita odmiana tego gatunku, charakteryzujący się bardziej brązowym zabarwieniem ciała. Natomiast odmiana żółta, występująca głównie w Afryce, należy do najbardziej jadowitych skorpionów świata. Dymorfizm płciowy jest słabo rozróżnialny u tych osobników. Liczba "zębów" na pektynach u samicy wynosi od 19 do 30, natomiast u samca 25 do 36. Pektyny samca są dłuższe.	
+			</opis>
+			<opis czego="Pokarm">Osobnik należy do niezwykle szybkich i agresywnych skorpionów, będąc dokonałym myśliwym. Żywi się głównie świerszczami, małymi karaczanami i innymi drobnymi owadami. W naturze często zjadają inne skorpiony, także swojego gatunku.
+			</opis>
+			<opis czego="Wymiary">Skorpion polny osiąga rozmiary od 5-8 cm.
+			</opis> 
+			<zdjecie zrodlo="Gfx/skorpion1.jpg"></zdjecie>
+			<zdjecie zrodlo="Gfx/skorpion16.jpg"></zdjecie>
+			<zdjecie zrodlo="Gfx/skorpion18_eat.jpg"></zdjecie>
+			<zdjecie zrodlo="Gfx/skorpion6.jpg"></zdjecie>
+			<linki adres="http://www.arachne.boo.pl/articles.php?id=34">Strona o skorpionach</linki>
+			<linki adres="http://terrarystyka.pl/gatunki.php?id=20020714130727">terrarystyka.pl</linki>
+			<linki adres="http://www.skorpione.de/htm/galerie/b_occitanus.htm">skorpione.de</linki>
+			<linki adres="http://www.bugsincyberspace.com/scorpions/buthus_occitanus.html">Skorpiony</linki>
+			<data>2012-11-11</data>
+	</skorpiony>
+</pajeczaki>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="filmoteka.xsl"?>
+
+<filmoteka grafika="tasma.jpg">
+	<!-- Dane uzyskane z serwisu filmweb.pl -->
+	<film>
+		<tytul_pol>Szklana pułapka</tytul_pol>
+		<tytul_oryg>Die Hard</tytul_oryg>
+		<rezyser>John McTiernan</rezyser>
+		<kraj>USA</kraj>
+		<rok>1988</rok>
+		<czas_trwania>131</czas_trwania>
+		<gatunek>Sensacyjny</gatunek>
+		<obsada>Bruce Willis, Alan Rickman</obsada>
+    <linki>
+      <link adres="http://pl.wikipedia.org/wiki/Szklana_pu%C5%82apka">Wikipedia</link>
+      <link adres="http://www.filmweb.pl/Szklana.Pulapka">Film</link>
+    </linki>
+	</film>
+	<film>
+		<tytul_pol>Buntownik bez powodu</tytul_pol>
+		<tytul_oryg>Rebel Without a Cause</tytul_oryg>
+		<rezyser>Nicholas Ray</rezyser>
+		<kraj>USA</kraj>
+		<rok>1955</rok>
+		<czas_trwania>111</czas_trwania>
+		<gatunek>Dramat</gatunek>
+		<obsada>James Dean, Natalie Wood</obsada>
+	</film>
+	<film>
+		<tytul_pol>Hydrozagadka</tytul_pol>
+		<tytul_oryg></tytul_oryg>
+		<rezyser>Andrzej Kondratiuk</rezyser>
+		<kraj>Polska</kraj>
+		<rok>1970</rok>
+		<czas_trwania>70</czas_trwania>
+		<gatunek>Komedia kryminalna</gatunek>
+		<obsada>Józef Nowak, Zdzisław Maklakiewicz, Roman Kłosowski</obsada>
+	</film>
+	<film>
+		<tytul_pol>Łowca androidów</tytul_pol>
+		<tytul_oryg>Blade Runner</tytul_oryg>
+		<rezyser>Ridley Scott</rezyser>
+		<kraj>Hongkong, USA, Wielka Brytania</kraj>
+		<rok>1982</rok>
+		<czas_trwania>117</czas_trwania>
+		<gatunek>Thriller, Sci-Fi</gatunek>
+		<obsada>Harrison Ford, Rutger Hauer</obsada>
+    <linki>
+      <link adres="http://pl.wikipedia.org/wiki/%C5%81owca_android%C3%B3w">Wikipedia</link>
+    </linki>
+  </film>
+	<film>
+		<tytul_pol>Kill Bill</tytul_pol>
+		<tytul_oryg>Kill Bill: Vol. 1</tytul_oryg>
+		<rezyser>Quentin Tarantino</rezyser>
+		<kraj>USA</kraj>
+		<rok>2003</rok>
+		<czas_trwania>111</czas_trwania>
+		<gatunek>Akcja, Thriller</gatunek>
+		<obsada>Uma Thurman, David Carradine</obsada>
+	</film>	
+	<film>
+		<tytul_pol>Człowiek z blizną</tytul_pol>
+		<tytul_oryg>Scarface</tytul_oryg>
+		<rezyser>Brian de Palma</rezyser>
+		<kraj>USA</kraj>
+		<rok>1983</rok>
+		<czas_trwania>170</czas_trwania>
+		<gatunek>Dramat, Gangsterski</gatunek>
+		<obsada>Al Pacino, Michelle Pfeiffer</obsada>
+    <linki>
+      <link adres="http://www.filmweb.pl/film/Cz%C5%82owiek+z+blizn%C4%85-1983-4833">Film</link>
+    </linki>
+  </film>	
+	<film>
+		<tytul_pol>Wielki Błękit</tytul_pol>
+		<tytul_oryg>Le Grand bleu</tytul_oryg>
+		<rezyser>Luc Besson</rezyser>
+		<kraj>Francja, USA, Włochy</kraj>
+		<rok>1988</rok>
+		<czas_trwania>168</czas_trwania>
+		<gatunek>Dramat</gatunek>
+		<obsada>Jean-Marc Barr, Jean Reno, Rosanna Arquette</obsada>
+	</film>	
+	<film>
+		<tytul_pol>Żywot Briana</tytul_pol>
+		<tytul_oryg>Life of Brian</tytul_oryg>
+		<rezyser>Terry Jones</rezyser>
+		<kraj>Wielka Brytania</kraj>
+		<rok>1979</rok>
+		<czas_trwania>94</czas_trwania>
+		<gatunek>Komedia</gatunek>
+		<obsada>Graham Chapman, John Cleese</obsada>
+	</film>	
+	<film>
+		<tytul_pol>Autor widmo</tytul_pol>
+		<tytul_oryg>The Ghost Writer</tytul_oryg>
+		<rezyser>Roman Polański</rezyser>
+		<kraj>Francja, Niemcy, Wielka Brytania</kraj>
+		<rok>2010</rok>
+		<czas_trwania>128</czas_trwania>
+		<gatunek>Dramat, Thriller</gatunek>
+		<obsada>Ewan McGregor, Pierce Brosnan</obsada>
+	</film>	
+	<film>
+		<tytul_pol>Kingsajz</tytul_pol>
+		<tytul_oryg></tytul_oryg>
+		<rezyser>Juliusz Machulski</rezyser>
+		<kraj>Polska</kraj>
+		<rok>1987</rok>
+		<czas_trwania>104</czas_trwania>
+		<gatunek>Komedia</gatunek>
+		<obsada>Jacek Chmielnik, Jerzy Stuhr</obsada>
+	</film>	
+	<film>
+		<tytul_pol>Rozmowy kontrolowane</tytul_pol>
+		<tytul_oryg></tytul_oryg>
+		<rezyser>Sylwester Chęciński</rezyser>
+		<kraj>Polska</kraj>
+		<rok>1991</rok>
+		<czas_trwania>93</czas_trwania>
+		<gatunek>Komedia</gatunek>
+		<obsada>Stanisław Tym, Irena Kwiatkowska, Krzysztof Kowalewski</obsada>
+	</film>
+	<film>
+		<tytul_pol>Pan Tadeusz</tytul_pol>
+		<tytul_oryg></tytul_oryg>
+		<rezyser>Andrzej Wajda</rezyser>
+		<kraj>Polska</kraj>
+		<rok>1999</rok>
+		<czas_trwania>147</czas_trwania>
+		<gatunek>Dramat, Kostiumowy</gatunek>
+		<obsada>Michał Żebrowski, Bogusław Linda, Marek Kondrat</obsada>
+	</film>
+	<!-- Poniżej możesz dodać własne wpisy -->
+	
+</filmoteka>

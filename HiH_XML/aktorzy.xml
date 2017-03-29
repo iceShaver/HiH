@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<aktorzy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="aktorzy.xsd">
+  <aktor zdjecie="img/schwarzenegger.jpg">
+    <ID_osoby>AS-1947-A</ID_osoby>
+    <imie>Arnold</imie>
+    <nazwisko>Schwarzenegger</nazwisko>
+    <plec>mezczyzna</plec>
+    <data_urodzenia>1947-07-30</data_urodzenia>
+    <miejsce_urodzenia>Thal, Austria</miejsce_urodzenia>
+    <filmy>
+      <film kadr="/img/terminator.jpg">
+        <ID_filmu>TR-1984</ID_filmu>
+        <tytul jezyk="polski">Terminator</tytul>
+        <tytul jezyk="angielski">The Terminator</tytul>
+        <rok_premiery>1984-10-26</rok_premiery>
+        <kraj>USA</kraj>
+        <kraj>Wielka Brytania</kraj>
+        <rezyser>
+          <ID_osoby>JC-1954-K</ID_osoby>
+          <imie>James</imie>
+          <nazwisko>Cameron</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1954-08-16</data_urodzenia>
+          <miejsce_urodzenia>Kapuskasing, Kanada</miejsce_urodzenia>
+        <kolor_oczu>Niebieskie</kolor_oczu>
+        </rezyser>
+        <gatunek>Akcja</gatunek>
+        <gatunek>Sci-Fi</gatunek>
+        <budzet>78371200</budzet>
+      </film>
+    </filmy>
+  <rodzina>
+    <partner>
+      Suzy Amis
+    </partner>
+  <dzieci>Nie wiadomo</dzieci>
+  </rodzina>
+  </aktor>
+  
+<aktor zdjecie="img/schwarzenegger.jpg">
+    <ID_osoby>AS-1947-A</ID_osoby>
+    <imie>Arnold</imie>
+    <nazwisko>Schwarzenegger</nazwisko>
+    <plec>mezczyzna</plec>
+    <data_urodzenia>1947-07-30</data_urodzenia>
+    <miejsce_urodzenia>Thal, Austria</miejsce_urodzenia>
+    <filmy>
+      <film kadr="/img/terminator.jpg">
+        <ID_filmu>TR-1984</ID_filmu>
+        <tytul jezyk="polski">Terminator</tytul>
+        <tytul jezyk="angielski">The Terminator</tytul>
+        <rok_premiery>1984-10-26</rok_premiery>
+        <kraj>USA</kraj>
+        <kraj>Wielka Brytania</kraj>
+        <rezyser>
+          <ID_osoby>JC-1954-K</ID_osoby>
+          <imie>James</imie>
+          <nazwisko>Cameron</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1954-08-16</data_urodzenia>
+          <miejsce_urodzenia>Kapuskasing, Kanada</miejsce_urodzenia>
+        <kolor_oczu>Niebieskie</kolor_oczu>
+        </rezyser>
+        <gatunek>Akcja</gatunek>
+        <gatunek>Sci-Fi</gatunek>
+        <budzet>78371200</budzet>
+      </film>
+    </filmy>
+  <rodzina>
+    <partner>
+      Suzy Amis
+    </partner>
+  <dzieci>Nie wiadomo</dzieci>
+  </rodzina>
+  </aktor>
+<aktor zdjecie="img/schwarzenegger.jpg">
+    <ID_osoby>AS-1947-A</ID_osoby>
+    <imie>Arnold</imie>
+    <nazwisko>Schwarzenegger</nazwisko>
+    <plec>mezczyzna</plec>
+    <data_urodzenia>1947-07-30</data_urodzenia>
+    <miejsce_urodzenia>Thal, Austria</miejsce_urodzenia>
+    <filmy>
+      <film kadr="/img/terminator.jpg">
+        <ID_filmu>TR-1984</ID_filmu>
+        <tytul jezyk="polski">Terminator</tytul>
+        <tytul jezyk="angielski">The Terminator</tytul>
+        <rok_premiery>1984-10-26</rok_premiery>
+        <kraj>USA</kraj>
+        <kraj>Wielka Brytania</kraj>
+        <rezyser>
+          <ID_osoby>JC-1954-K</ID_osoby>
+          <imie>James</imie>
+          <nazwisko>Cameron</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1954-08-16</data_urodzenia>
+          <miejsce_urodzenia>Kapuskasing, Kanada</miejsce_urodzenia>
+        <kolor_oczu>Niebieskie</kolor_oczu>
+        </rezyser>
+        <gatunek>Akcja</gatunek>
+        <gatunek>Sci-Fi</gatunek>
+        <budzet>78371200</budzet>
+      </film>
+    </filmy>
+  <rodzina>
+    <partner>
+      Suzy Amis
+    </partner>
+  <dzieci>Nie wiadomo</dzieci>
+  </rodzina>
+  </aktor>
+</aktorzy>

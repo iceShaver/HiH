@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+.name{
+    font-size: 40px;
+}
+.title {
+    font-size: 20px;
+}
+.details {
+    font-size: 14px;
+    color: #888;
+    margin-left: 40px;
+}
+.rodzina, .filmy, .rezyser, .content, .strona {
+    margin-left: 40px;
+}
+.film {
+    margin-left: 20px;
+}
+.content  .name {
+    font-size: 20px;
+}
+.filmy .details {
+    margin-left: 25px;
+}
+.rezyser .details {
+    margin-left: 0px;
+}
+.zdjecie {
+    margin-left: 40px;
+}

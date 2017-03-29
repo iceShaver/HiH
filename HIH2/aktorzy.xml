@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="html1.xsl"?>
+<aktorzy xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="aktorzy.xsd">
+
+
+  <aktor zdjecie="img/schwarzenegger.jpg">
+    <ID_osoby>AS-1947-A</ID_osoby>
+    <imie>Arnold</imie>
+    <nazwisko>Schwarzenegger</nazwisko>
+    <plec>mezczyzna</plec>
+    <data_urodzenia>1947-07-30</data_urodzenia>
+    <miejsce_urodzenia>Thal, Austria</miejsce_urodzenia>
+    <link>http://www.schwarzenegger.com/</link>
+    <filmy>
+      <film kadr="img/terminator.jpeg">
+        <ID_filmu>TR-1984</ID_filmu>
+        <tytul jezyk="polski">Terminator</tytul>
+        <tytul jezyk="angielski">The Terminator</tytul>
+        <rok_premiery>1984-10-26</rok_premiery>
+        <kraj>USA</kraj>
+        <kraj>Wielka Brytania</kraj>
+        <rezyser>
+          <ID_osoby>JC-1954-K</ID_osoby>
+          <imie>James</imie>
+          <nazwisko>Cameron</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1954-08-16</data_urodzenia>
+          <miejsce_urodzenia>Kapuskasing, Kanada</miejsce_urodzenia>
+          <kolor_oczu>Niebieskie</kolor_oczu>
+        </rezyser>
+        <gatunek>Akcja</gatunek>
+        <gatunek>Sci-Fi</gatunek>
+        <budzet>78371200</budzet>
+      </film>
+      <film kadr="img/conan.jpg">
+        <ID_filmu>CN-1982</ID_filmu>
+        <tytul jezyk="polski">Conan Barbarzyńca</tytul>
+        <tytul jezyk="angielski">Conan The Barbarian</tytul>
+        <rok_premiery>1982-09-23</rok_premiery>
+        <kraj>USA</kraj>
+        <rezyser>
+          <ID_osoby>JM-1944-S</ID_osoby>
+          <imie>John</imie>
+          <nazwisko>Milius</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1944-04-11</data_urodzenia>
+          <miejsce_urodzenia>Saint Luois, Missouri</miejsce_urodzenia>
+          <kolor_oczu>N/A</kolor_oczu>
+        </rezyser>
+        <gatunek>Przygodowy</gatunek>
+        <budzet>16000000</budzet>
+      </film>
+    </filmy>
+    <rodzina>
+      <partner>
+        Suzy Amis
+      </partner>
+      <dzieci>Nie wiadomo</dzieci>
+    </rodzina>
+  </aktor>
+
+  <aktor zdjecie="img/stallone.jpg">
+    <ID_osoby>SS-1947-N</ID_osoby>
+    <imie>Sylvester</imie>
+    <nazwisko>Stallone</nazwisko>
+    <plec>mezczyzna</plec>
+    <data_urodzenia>1946-06-06</data_urodzenia>
+    <miejsce_urodzenia>Nowy Jork</miejsce_urodzenia>
+    <link>http://sylvesterstallone.com/</link>
+    <filmy>
+      <film kadr="img/rambo.jpg">
+        <ID_filmu>RD-1982</ID_filmu>
+        <tytul jezyk="polski">Rambo – Pierwsza krew</tytul>
+        <tytul jezyk="angielski">Rambo - First Blood</tytul>
+        <rok_premiery>1982-10-22</rok_premiery>
+        <kraj>USA</kraj>
+        <rezyser>
+          <ID_osoby>TC-1931-T</ID_osoby>
+          <imie>Ted</imie>
+          <nazwisko>Kotcheff</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1931-04-07</data_urodzenia>
+          <miejsce_urodzenia>Toronto</miejsce_urodzenia>
+          <kolor_oczu>N/A</kolor_oczu>
+        </rezyser>
+        <gatunek>Dramat</gatunek>
+        <gatunek>Wojenny</gatunek>
+        <budzet>14000000</budzet>
+      </film>
+      <film kadr="img/rocky.jpg">
+        <ID_filmu>RY-1978</ID_filmu>
+        <tytul jezyk="polski">Rocky</tytul>
+        <tytul jezyk="angielski">Rocky</tytul>
+        <rok_premiery>1976-11-21</rok_premiery>
+        <kraj>USA</kraj>
+        <rezyser>
+          <ID_osoby>JA-1935-O</ID_osoby>
+          <imie>John</imie>
+          <nazwisko>Avildsen</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1935-12-21</data_urodzenia>
+          <miejsce_urodzenia>Oak Peak, Illinois</miejsce_urodzenia>
+          <kolor_oczu>N/A</kolor_oczu>
+        </rezyser>
+        <gatunek>Dramat</gatunek>
+        <gatunek>Sportowy</gatunek>
+        <gatunek>Romans</gatunek>
+        <budzet>225000000</budzet>
+      </film>
+    </filmy>
+    <rodzina>
+      <partner>
+        Jennifer Flavin
+      </partner>
+      <dzieci>Sophie, Sistine Rose, Scarlet Rose</dzieci>
+    </rodzina>
+  </aktor>
+
+  <aktor zdjecie="img/foster.jpg">
+    <ID_osoby>JF-1962-L</ID_osoby>
+    <imie>Jodie</imie>
+    <nazwisko>Foster</nazwisko>
+    <plec>kobieta</plec>
+    <data_urodzenia>1962-11-19</data_urodzenia>
+    <miejsce_urodzenia>Los Angeles, Kalifornia</miejsce_urodzenia>
+    <link>https://en.wikipedia.org/wiki/Jodie_Foster</link>
+    <filmy>
+      <film kadr="img/lambs.jpg">
+        <ID_filmu>TS-1991</ID_filmu>
+        <tytul jezyk="polski">Milczenie owiec</tytul>
+        <tytul jezyk="angielski">The Silence of the Lambs</tytul>
+        <rok_premiery>1991-01-30</rok_premiery>
+        <kraj>USA</kraj>
+        <rezyser>
+          <ID_osoby>TT-1952-W</ID_osoby>
+          <imie>Ted</imie>
+          <nazwisko>Tally</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1952-04-09</data_urodzenia>
+          <miejsce_urodzenia>Winston-Salem, Karolina Północna</miejsce_urodzenia>
+          <kolor_oczu>N/A</kolor_oczu>
+        </rezyser>
+        <gatunek>Thriller</gatunek>
+        <budzet>272742922</budzet>
+      </film>
+      <film kadr="img/insideman.jpg">
+        <ID_filmu>IN-2006</ID_filmu>
+        <tytul jezyk="polski">Plan Doskonały</tytul>
+        <tytul jezyk="angielski">Inside Man</tytul>
+        <rok_premiery>2006-03-16</rok_premiery>
+        <kraj>USA</kraj>
+        <kraj>Wielka Brytania</kraj>
+        <rezyser>
+          <ID_osoby>SL-1957-A</ID_osoby>
+          <imie>Spike</imie>
+          <nazwisko>Lee</nazwisko>
+          <plec>mezczyzna</plec>
+          <data_urodzenia>1957-03-20</data_urodzenia>
+          <miejsce_urodzenia>Atlanta, Georgia</miejsce_urodzenia>
+          <kolor_oczu>N/A</kolor_oczu>
+        </rezyser>
+        <gatunek>Sensacyjny</gatunek>
+        <gatunek>Thriller</gatunek>
+        <budzet>184376254</budzet>
+      </film>
+    </filmy>
+    <rodzina>
+      <partner>
+        Alexandra Hedison
+      </partner>
+      <dzieci>Charles Bernard Foster, Kit Bernard Foster</dzieci>
+    </rodzina>
+  </aktor>
+
+
+
+
+</aktorzy>

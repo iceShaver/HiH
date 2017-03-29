@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
+  <xs:annotation>
+    <xs:documentation xml:lang="pl">
+      XML Schema do pliku aktorzy
+    </xs:documentation>
+  </xs:annotation>
+  
+  
+  <xs:element name="ID_osoby" type="ID_osoby_typ"/>
+  <xs:element name="imie" type="xs:string"/>
+  <xs:element name="nazwisko" type="xs:string"/>
+  <xs:element name="data_urodzenia" type="xs:date"/>
+  <xs:element name="plec" type="plec_typ"/>
+  <xs:element name="miejsce_urodzenia" type="xs:string" />
+
+
+  <xs:simpleType name="ID_osoby_typ">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}-\d{4}-[A-Z]{1}" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ID_filmu_typ">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Z]{2}-\d{4}" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="plec_typ">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="kobieta|mezczyzna"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="gatunek_typ">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Horror" />
+      <xs:enumeration value="Dokument" />
+      <xs:enumeration value="Komedia" />
+      <xs:enumeration value="Dramat" />
+      <xs:enumeration value="Historyczny" />
+      <xs:enumeration value="Wojenny" />
+      <xs:enumeration value="Sci-Fi" />
+      <xs:enumeration value="Fantasy" />
+      <xs:enumeration value="Akcja" />
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:element name="aktorzy" type="aktorzy_typ" />
+
+  <xs:complexType name="aktorzy_typ">
+    <xs:sequence>
+      <xs:element name="aktor" type="aktor_typ" maxOccurs="unbounded" />
+    </xs:sequence>
+  </xs:complexType>
+
+
+  <xs:complexType name="aktor_typ">
+    <xs:sequence>
+      <xs:element ref="ID_osoby" />
+      <xs:element ref="imie"/>
+      <xs:element ref="nazwisko"/>
+      <xs:element ref="plec"/>
+      <xs:element ref="data_urodzenia"/>
+      <xs:element ref="miejsce_urodzenia"/>
+      <xs:element name="filmy" type="filmy_typ" maxOccurs="unbounded" />
+      <xs:element name="rodzina">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="partner">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value ="100" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="dzieci" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name ="zdjecie" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="filmy_typ">
+    <xs:sequence>
+      <xs:element name ="film" type="film_typ" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="film_typ" >
+    <xs:sequence>
+      <xs:element name="ID_filmu" type="ID_filmu_typ" />
+      <xs:element name="tytul" type="tytul_typ" maxOccurs="unbounded" />
+      <xs:element name="rok_premiery" type="xs:date" />
+      <xs:element name="kraj" type="xs:string" maxOccurs="unbounded" />
+      <xs:element name="rezyser" type="rezyser_typ" />
+      <xs:element name="gatunek" type ="gatunek_typ" maxOccurs="unbounded" />
+      <xs:element name="budzet" type="xs:int"/>
+    </xs:sequence>
+    <xs:attribute name="kadr" type="xs:string" use="required" />
+  </xs:complexType>
+
+  <xs:complexType name="tytul_typ">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="jezyk" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="rezyser_typ">
+    <xs:sequence>
+      <xs:element ref="ID_osoby" />
+      <xs:element ref="imie" />
+      <xs:element ref="nazwisko" />
+      <xs:element ref="plec" />
+      <xs:element ref="data_urodzenia" />
+      <xs:element ref="miejsce_urodzenia"/>
+      <xs:element name="kolor_oczu" type="kolor_oczu_typ" />
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="kolor_oczu_typ">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Niebieskie" />
+      <xs:enumeration value="Brazowe" />
+      <xs:enumeration value="Zielone" />
+      <xs:enumeration value="Piwne" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="aktorzy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="aktor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_osoby" type="xs:string" />
+              <xs:element name="imie" type="xs:string" />
+              <xs:element name="nazwisko" type="xs:string" />
+              <xs:element name="plec" type="xs:string" />
+              <xs:element name="data_urodzenia" type="xs:date" />
+              <xs:element name="miejsce_urodzenia" type="xs:string" />
+              <xs:element name="filmy">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="film">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ID_filmu" type="xs:string" />
+                          <xs:element maxOccurs="unbounded" name="tytul">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="jezyk" type="xs:string" use="required" />
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="rok_premiery" type="xs:date" />
+                          <xs:element maxOccurs="unbounded" name="kraj" type="xs:string" />
+                          <xs:element name="rezyser">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ID_osoby" type="xs:string" />
+                                <xs:element name="imie" type="xs:string" />
+                                <xs:element name="nazwisko" type="xs:string" />
+                                <xs:element name="plec" type="xs:string" />
+                                <xs:element name="data_urodzenia" type="xs:date" />
+                                <xs:element name="miejsce_urodzenia" type="xs:string" />
+                                <xs:element name="kolor_oczu" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element maxOccurs="unbounded" name="gatunek" type="xs:string" />
+                          <xs:element name="budzet" type="xs:unsignedInt" />
+                        </xs:sequence>
+                        <xs:attribute name="kadr" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="rodzina">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="partner" type="xs:string" />
+                    <xs:element name="dzieci" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="zdjecie" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
